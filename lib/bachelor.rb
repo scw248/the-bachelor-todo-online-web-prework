@@ -91,5 +91,5 @@ end
 end
 end
 average = total.ceil/count.to_f
-average
+average.round
 end
