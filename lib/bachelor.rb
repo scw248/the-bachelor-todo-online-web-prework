@@ -28,7 +28,15 @@ def get_contestant_name(data, occupation)
         if characteristics == "occupation"
           if val == occupation
       contestant.each do |characteristics, val|
-        if characteristics == 
+        if characteristics == "name"
+          return val
+end
+end
+end
+end
+end
+end
+end
 end
 
 def count_contestants_by_hometown(data, hometown)
