@@ -90,6 +90,5 @@ end
 end
 end
 end
-average = total.ceil / count.ceil
-average.ceil
+(total/count).ceil
 end
