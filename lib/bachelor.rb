@@ -90,5 +90,5 @@ end
 end
 end
 end
-average = total.ceil / count.ceil)
+average = total.ceil / count.ceil
 end
