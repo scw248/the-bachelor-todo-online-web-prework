@@ -57,6 +57,7 @@ count
 end
 
 def get_occupation(data, hometown)
+  data.each do |seasons, contestants|
   contestants.each do |contestant|
       contestant.each do |characteristics, val|
         if characteristics == "hometown"
