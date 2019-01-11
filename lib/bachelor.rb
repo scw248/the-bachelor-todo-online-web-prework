@@ -57,7 +57,19 @@ count
 end
 
 def get_occupation(data, hometown)
-  # code here
+  contestants.each do |contestant|
+      contestant.each do |characteristics, val|
+        if characteristics == "hometown"
+          if val == hometown
+      contestant.each do |characteristics, val|
+        if characteristics == "occupation"
+          return val
+end
+end
+end
+end
+end
+end
 end
 
 def get_average_age_for_season(data, season)
