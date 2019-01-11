@@ -47,7 +47,8 @@ def count_contestants_by_hometown(data, hometown)
       contestant.each do |characteristics, val|
         if characteristics == "hometown"
           if val == hometown
-            count++
+            count += 1
+end
 end
 end
 end
