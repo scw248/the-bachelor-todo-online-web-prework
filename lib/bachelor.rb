@@ -90,6 +90,7 @@ end
 end
 end
 end
+binding.pry
 average = total / count
 average.round
 end
