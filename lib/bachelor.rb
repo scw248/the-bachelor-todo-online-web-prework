@@ -90,5 +90,5 @@ end
 end
 end
 end
-(total/count).ceil
+(total/count).round
 end
