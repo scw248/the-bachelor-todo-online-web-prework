@@ -90,5 +90,6 @@ end
 end
 end
 end
-total/count.ceil
+average = total.ceil/count.to_f
+average.ceil
 end
