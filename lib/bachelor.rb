@@ -91,4 +91,5 @@ end
 end
 end
 average = total.ceil / count.ceil
+binding.pry
 end
