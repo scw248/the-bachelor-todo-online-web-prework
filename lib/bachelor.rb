@@ -90,5 +90,6 @@ end
 end
 end
 end
-total / count
+average = total / count
+average.
 end
