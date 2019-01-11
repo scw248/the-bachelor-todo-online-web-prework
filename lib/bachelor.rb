@@ -90,7 +90,5 @@ end
 end
 end
 end
-average = total / count
-binding.pry
-average.round
+(total / count).ceil
 end
