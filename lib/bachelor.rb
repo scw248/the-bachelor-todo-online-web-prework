@@ -91,5 +91,5 @@ end
 end
 end
 average = total / count
-average.ceil
+average.round
 end
