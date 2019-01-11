@@ -22,7 +22,10 @@ end
 
 
 def get_contestant_name(data, occupation)
-  # code here
+  data.each do |seasons, contestants|
+    contestants.each do |contestant|
+      contestant.each do |characteristics, val|
+        
 end
 
 def count_contestants_by_hometown(data, hometown)
